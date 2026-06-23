@@ -29,49 +29,27 @@ export default function Navbar() {
 
                 {/* Desktop Menu */}
                 <ul className="hidden lg:flex items-center gap-8 text-white">
-                    <li className="hover:text-yellow-400 transition cursor-pointer">
+                    <li className="hover:text-yellow-400 transition cursor-pointer ">
                         Home
                     </li>
 
-                    <li className="hover:text-yellow-400 transition cursor-pointer">
+                    <li className="hover:text-yellow-400 transition cursor-pointer animate__animated animate__fadeInDown">
                         About
                     </li>
 
                     {/* Services Dropdown */}
                     <li
-                        className="relative group cursor-pointer"
-                        onMouseEnter={() => setServiceOpen(true)}
-                        onMouseLeave={() => setServiceOpen(false)}
-                    >
-                        <div className="flex items-center gap-1 hover:text-yellow-400">
-                            Services
-                            <ChevronDown size={18} />
-                        </div>
+                        className="relative group cursor-pointer "
 
-                        {serviceOpen && (
-                            <div className="absolute top-10 left-0 w-56 bg-[#27272A] rounded-xl shadow-2xl p-3">
-                                <ul className="space-y-2">
-                                    <li className="hover:text-yellow-400 cursor-pointer">
-                                        Hair Cut
-                                    </li>
-                                    <li className="hover:text-yellow-400 cursor-pointer">
-                                        Hair Styling
-                                    </li>
-                                    <li className="hover:text-yellow-400 cursor-pointer">
-                                        Hair Coloring
-                                    </li>
-                                    <li className="hover:text-yellow-400 cursor-pointer">
-                                        Facial
-                                    </li>
-                                    <li className="hover:text-yellow-400 cursor-pointer">
-                                        Bridal Makeup
-                                    </li>
-                                </ul>
-                            </div>
-                        )}
+                    >
+
+                        Services
+
+
+
                     </li>
 
-                    <li className="hover:text-yellow-400 transition cursor-pointer">
+                    <li className="hover:text-yellow-400 transition cursor-pointer animate__animated animate__fadeInDown">
                         Gallery
                     </li>
 
@@ -79,7 +57,7 @@ export default function Navbar() {
                         Blog
                     </li>
 
-                    <li className="hover:text-yellow-400 transition cursor-pointer">
+                    <li className="hover:text-yellow-400 transition cursor-pointer animate__animated animate__fadeInDown">
                         Contact
                     </li>
                 </ul>
@@ -108,20 +86,7 @@ export default function Navbar() {
                     <ul className="flex flex-col text-white p-5 gap-5">
                         <li>Home</li>
                         <li>About</li>
-
-                        <li>
-                            <details>
-                                <summary className="cursor-pointer">Services</summary>
-                                <ul className="pl-4 mt-3 space-y-2 text-zinc-300">
-                                    <li>Hair Cut</li>
-                                    <li>Hair Styling</li>
-                                    <li>Hair Coloring</li>
-                                    <li>Facial</li>
-                                    <li>Bridal Makeup</li>
-                                </ul>
-                            </details>
-                        </li>
-
+                        <li>Services</li>
                         <li>Gallery</li>
                         <li>Blog</li>
                         <li>Contact</li>

@@ -18,13 +18,13 @@ function LandingPage() {
                     {/* LEFT SIDE */}
                     <div className="text-center lg:text-left pt-8 lg:pt-0 z-10">
 
-                        <span className="inline-block px-4 py-2 rounded-full border border-yellow-500 text-yellow-400 text-xs sm:text-sm">
+                        <span className="inline-block px-4 py-2 rounded-full border border-yellow-500 text-yellow-400 text-xs sm:text-sm animate__animated animate__swing">
                             Premium Hair & Beauty Salon
                         </span>
 
                         <h1 className="mt-6 text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-bold leading-tight text-white">
                             Meet
-                            <span className="block text-yellow-400 mt-2">
+                            <span className="block text-yellow-400 mt-2 animate__animated animate__fadeInUp">
                                 Vinod Kumar Sen
                             </span>
                         </h1>
@@ -54,25 +54,25 @@ function LandingPage() {
                         {/* Stats */}
                         <div className="grid grid-cols-3 gap-4 sm:gap-8 mt-14">
 
-                            <div>
-                                <h2 className="text-yellow-400 text-2xl sm:text-4xl font-bold">
-                                    15+
+                            <div className="animate__animated animate__fadeInUp">
+                                <h2 className="text-yellow-400 text-2xl sm:text-4xl font-bold ">
+                                    27+
                                 </h2>
                                 <p className="text-gray-400 text-sm sm:text-base">
                                     Years
                                 </p>
                             </div>
 
-                            <div>
+                            <div className="animate__animated animate__fadeInUp">
                                 <h2 className="text-yellow-400 text-2xl sm:text-4xl font-bold">
-                                    10K+
+                                    3K+
                                 </h2>
                                 <p className="text-gray-400 text-sm sm:text-base">
                                     Clients
                                 </p>
                             </div>
 
-                            <div>
+                            <div className="animate__animated animate__fadeInUp">
                                 <h2 className="text-yellow-400 text-2xl sm:text-4xl font-bold">
                                     100%
                                 </h2>
@@ -126,7 +126,9 @@ function LandingPage() {
               py-3
               rounded-2xl
               shadow-xl
-              animate-bounce
+              text-white
+              animate__animated
+              animate__zoomInLeft
             "
                         >
                             ✂️ Hair Styling Expert
@@ -145,7 +147,9 @@ function LandingPage() {
               py-3
               rounded-2xl
               shadow-xl
-              animate-bounce
+             text-white
+             animate__animated
+             animate__zoomInRight
             "
                         >
                             ⭐ Premium Salon Service
