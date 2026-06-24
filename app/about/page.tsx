@@ -70,7 +70,7 @@ export default function AboutSection() {
               border
               border-yellow-500/20
               rounded-3xl
-              p-3 sm:p-4
+              p-1 sm:p-1
               shadow-2xl
             ">
 
@@ -81,7 +81,7 @@ export default function AboutSection() {
                                 height={700}
                                 priority
                                 className="
-                  w-[260px]
+                  w-[290px]
                   sm:w-[340px]
                   md:w-[420px]
                   lg:w-[500px]
