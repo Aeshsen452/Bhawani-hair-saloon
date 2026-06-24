@@ -56,7 +56,7 @@ function LandingPage() {
 
                             <div className="animate__animated animate__fadeInUp">
                                 <h2 className="text-yellow-400 text-2xl sm:text-4xl font-bold ">
-                                    27+
+                                    25+
                                 </h2>
                                 <p className="text-gray-400 text-sm sm:text-base">
                                     Years
