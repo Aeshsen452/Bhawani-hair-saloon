@@ -7,6 +7,7 @@ import {
     Clock,
 
 } from "lucide-react";
+import { InstagramOutlined, FacebookOutlined } from "@ant-design/icons"
 
 export default function ContactSection() {
     return (
@@ -103,12 +104,12 @@ export default function ContactSection() {
 
                             {/* Social Icons */}
                             <div className="flex gap-4 mt-8">
-                                <button className="bg-[#222] p-3 rounded-full hover:bg-yellow-500 hover:text-black transition">
-                                    {/* <Instagram /> */}
+                                <button className="bg-white w-10 h-10 flex justify-center items-center p-3 rounded-full hover:bg-yellow-500 hover:text-black transition">
+                                    <InstagramOutlined />
                                 </button>
 
-                                <button className="bg-[#222] p-3 rounded-full hover:bg-yellow-500 hover:text-black transition">
-                                    {/* <Facebook /> */}
+                                <button className="bg-white w-10 h-10 flex justify-center items-center p-3 rounded-full hover:bg-yellow-500 hover:text-black transition">
+                                    <FacebookOutlined />
                                 </button>
                             </div>
 
