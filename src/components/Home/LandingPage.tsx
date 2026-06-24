@@ -96,7 +96,7 @@ function LandingPage() {
                         <div className="relative backdrop-blur-xl bg-white/5 border border-white/10 rounded-[30px] p-3 shadow-2xl">
 
                             <Image
-                                src="/ProfileImage.png"
+                                src="/OwnerImage.png"
                                 alt="Vinod Kumar Sen"
                                 width={600}
                                 height={700}
