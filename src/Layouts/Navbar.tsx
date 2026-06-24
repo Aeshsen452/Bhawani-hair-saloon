@@ -94,7 +94,7 @@ export default function Navbar() {
                             Desktopmenu.map((item, index) => (
                                 <Link href={item.to} className={`hover:text-yellow-400 transition cursor-pointer 
                              ${index % 2 === 0 ? "animate__animated animate__fadeInDown" : ""}
-                            `} key={index}>
+                            `} key={index} onClick={() => setIsOpen(false)}>
                                     {item.label}
                                 </Link>
                             ))

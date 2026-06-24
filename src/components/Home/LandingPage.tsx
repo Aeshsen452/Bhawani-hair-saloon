@@ -1,6 +1,7 @@
 
 "use client";
 import Image from "next/image";
+import { WhatsAppOutlined } from "@ant-design/icons"
 
 function LandingPage() {
     return (
@@ -160,6 +161,13 @@ function LandingPage() {
                 </div>
 
             </div>
+
+            <a className="w-14 h-14 bg-green-700 z-50 rounded-full fixed bottom-9 right-5 flex justify-center items-center" href="https://wa.me/919827557117?text=Hello%20Bhwawani %20Bhaiya%20mujhe%20jankari%20chaiye%20aapki%20saloon%20ki"
+
+            >
+
+                <WhatsAppOutlined />
+            </a>
         </section>
     );
 }
